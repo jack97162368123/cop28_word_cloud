@@ -11,10 +11,7 @@ const COP23=[
     "text": "conference",
     "value": 15
   },
-  {
-    "text": "of",
-    "value": 178
-  },
+ 
   {
     "text": "parties",
     "value": 34
@@ -71,10 +68,7 @@ const COP23=[
     "text": "report",
     "value": 22
   },
-  {
-    "text": "on",
-    "value": 54
-  },
+ 
   {
     "text": "its",
     "value": 13
@@ -102,10 +96,6 @@ const COP23=[
   {
     "text": "contents",
     "value": 1
-  },
-  {
-    "text": "to",
-    "value": 60
   },
   {
     "text": "be",
@@ -319,10 +309,7 @@ const COP23=[
     "text": "building",
     "value": 4
   },
-  {
-    "text": "and",
-    "value": 77
-  },
+  
   {
     "text": "nuclear",
     "value": 2

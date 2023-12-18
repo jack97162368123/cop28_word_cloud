@@ -38,10 +38,7 @@ const COP26 =
     "text": "conference",
     "value": 7
   },
-  {
-    "text": "of",
-    "value": 167
-  },
+ 
   {
     "text": "parties",
     "value": 46
@@ -54,10 +51,7 @@ const COP26 =
     "text": "decisions",
     "value": 3
   },
-  {
-    "text": "and",
-    "value": 240
-  },
+
   {
     "text": "noting",
     "value": 3
@@ -143,10 +137,7 @@ const COP26 =
     "text": "efforts",
     "value": 9
   },
-  {
-    "text": "to",
-    "value": 150
-  },
+ 
   {
     "text": "eradi",
     "value": 1

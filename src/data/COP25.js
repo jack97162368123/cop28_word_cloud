@@ -19,10 +19,7 @@ const COP25=[
     "text": "scope",
     "value": 2
   },
-  {
-    "text": "of",
-    "value": 35
-  },
+ 
 
   {
     "text": "second",
@@ -60,10 +57,7 @@ const COP25=[
     "text": "convention",
     "value": 12
   },
-  {
-    "text": "and",
-    "value": 30
-  },
+ 
   {
     "text": "overall",
     "value": 4
@@ -161,10 +155,7 @@ const COP25=[
     "text": "pursuant",
     "value": 1
   },
-  {
-    "text": "to",
-    "value": 10
-  },
+
   {
     "text": "paragraph",
     "value": 5

@@ -1,8 +1,5 @@
 const COP24=[
-  {
-    "text": "a",
-    "value": 90
-  },
+
   {
     "text": "un",
     "value": 8
@@ -44,18 +41,12 @@ const COP24=[
     "text": "resolution",
     "value": 4
   },
-  {
-    "text": "of",
-    "value": 321
-  },
+ 
   {
     "text": "october",
     "value": 14
   },
-  {
-    "text": "on",
-    "value": 95
-  },
+ 
  
   {
     "text": "conferen",
@@ -84,10 +75,6 @@ const COP24=[
   {
     "text": "rd",
     "value": 5
-  },
-  {
-    "text": "to",
-    "value": 349
   },
   {
     "text": "united",
@@ -120,10 +107,6 @@ const COP24=[
   {
     "text": "unfccc",
     "value": 10
-  },
-  {
-    "text": "and",
-    "value": 402
   },
   {
     "text": "kyoto",
@@ -277,10 +260,7 @@ const COP24=[
     "text": "opening",
     "value": 1
   },
-  {
-    "text": "for",
-    "value": 105
-  },
+
   {
     "text": "signature",
     "value": 1
@@ -316,10 +296,6 @@ const COP24=[
   {
     "text": "fact",
     "value": 5
-  },
-  {
-    "text": "that",
-    "value": 121
   },
   {
     "text": "it",
