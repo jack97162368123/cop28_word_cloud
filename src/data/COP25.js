@@ -23,10 +23,7 @@ const COP25=[
     "text": "of",
     "value": 35
   },
-  {
-    "text": "the",
-    "value": 80
-  },
+
   {
     "text": "second",
     "value": 9
@@ -111,10 +108,7 @@ const COP25=[
     "text": "contained",
     "value": 2
   },
-  {
-    "text": "in",
-    "value": 20
-  },
+  
   {
     "text": "its",
     "value": 2
