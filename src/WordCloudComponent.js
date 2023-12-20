@@ -17,9 +17,16 @@ function WordCloudComponent() {
     const [ wordData, setWordData ] = useState([]);
     const [ currentDataIndex, setCurrentDataIndex ] = useState(0);
 
-    const dataSets = useMemo(() => [COP28, COP27, COP26, COP25, COP24, COP23], []);
+    const dataSets = useMemo(() => [ COP28, COP27, COP26, COP25, COP24, COP23 ], []);
 
-    const datasetNames = [ "COP28 UAE", "COP27 Egypt", "COP26 Glasgow", "COP25 Madrid", "COP24 Katowice", "COP23 Bonn" ];
+    const datasetNames = [
+        "COP28 UAE",
+        "COP27 Egypt",
+        "COP26 Glasgow",
+        "COP25 Madrid",
+        "COP24 Katowice",
+        "COP23 Bonn",
+    ];
 
     useEffect(() => {
         // Set wordData based on the currentDataIndex
@@ -29,10 +36,10 @@ function WordCloudComponent() {
     const options = {
         colors: [ "#3496d3", "#4fa6d8", "#2e85c0", "#3496d380", "#4fa6d880", "#2e85c080" ],
         fontFamily: "inter, sans-serif",
-        fontSizes: [ 30, 80 ],
+        fontSizes: [ 30, 50 ],
         scale: "sqrt",
         rotations: 3,
-        rotationAngles: [ -10, 0, 10 ],
+        rotationAngles: [ -90, 0, 90 ],
         // ... other options
     };
 
@@ -41,7 +48,8 @@ function WordCloudComponent() {
     };
 
     return (
-        <div>
+        <div className="body">
+            <div className="header">
             <div className="TopSection">
                 <h1 style={{marginBottom: "0.2em", textAlign: "left", display: "flex", alignItems: "center"}}>
                     Word Cloud <img src={Logo} alt="Logo" style={{width: "1em", marginLeft: "8px"}} />
@@ -52,27 +60,16 @@ function WordCloudComponent() {
                     word to view a specific word count.
                 </p>
 
-                <button
-                    onClick={handleNextData}
-                    style={{
-                        backgroundColor: "#3496d3",
-                        color: "white",
-                        border: "none",
-                        borderRadius: "4px",
-                        padding: "10px 20px",
-                        cursor: "pointer",
-                        fontSize: "16px",
-                        width: "20em",
-                    }}
-                >
+                <button className="button" onClick={handleNextData}>
                     Next Cloud: {datasetNames[currentDataIndex]}
                 </button>
             </div>
 
             <div className="BottomSection">
-                <div style={{height: "60vh", width: "90vw", padding: "2em"}}>
+                <div style={{ paddingTop:"2em", height: "auto", width: "auto",}}>
                     <ReactWordcloud words={wordData} options={options} />
-                </div>
+                    </div>
+                    </div>
             </div>
         </div>
     );
