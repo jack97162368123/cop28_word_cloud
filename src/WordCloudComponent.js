@@ -66,7 +66,7 @@ function WordCloudComponent() {
             </div>
 
             <div className="BottomSection">
-                <div style={{ paddingTop:"2em", height: "auto", width: "auto",}}>
+                <div style={{ paddingTop:"2em", height: "70vh", width: "auto",}}>
                     <ReactWordcloud words={wordData} options={options} />
                     </div>
                     </div>
